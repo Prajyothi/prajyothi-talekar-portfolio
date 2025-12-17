@@ -25,7 +25,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="/Prajyothi.pdf"
+            href="/resume-2025-12.pdf?v=2"
             download="Prajyothi_Talekar_Resume.pdf"
             className="text-nowrap rounded-lg bg-linear-to-r from-blue-500 to-pink-500 px-5 py-3 text-lg font-bold text-white shadow-lg shadow-pink-700/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-pink-500"
           >
