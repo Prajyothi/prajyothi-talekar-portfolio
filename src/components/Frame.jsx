@@ -52,7 +52,7 @@ const Frame = () => {
           </p>
 
           <a
-            href="/resume-2025-12.pdf?v=2"
+            href="/resume.pdf?v=1"
             download="Prajyothi_Talekar_Resume.pdf"
             className="mt-4 rounded-lg bg-linear-to-r from-blue-500 to-pink-500 px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-pink-500/50"
           >
