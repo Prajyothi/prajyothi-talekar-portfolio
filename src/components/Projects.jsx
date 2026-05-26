@@ -8,10 +8,10 @@ const projectsData = [
     image: HomePage,
     title: "Netflix Clone Project",
     description:
-      "I developed a production-ready Netflix Clone that showcases both my frontend and backend engineering skills. The project includes RESTful APIs built with Node.js and Express for authentication, movie catalog management, user profiles, and secure data handling. I used Postman for endpoint testing and to populate movie data in MongoDB, ensuring reliable functionality across the system. The application is fully deployed, with the frontend hosted on Vercel and backend services running on Render, offering a seamless end-to-end streaming experience.",
+      "I developed a production ready Netflix Clone that showcases both my frontend and backend engineering skills. The project includes RESTful APIs built with Node.js and Express for authentication, movie catalog management, user profiles, and secure data handling. I used Postman for endpoint testing and to populate movie data in MongoDB, ensuring reliable functionality across the system. The application is fully deployed, with the frontend hosted on Vercel and backend services running on Render, offering a seamless end-to-end streaming experience.",
     technologies: [
       "JavaScript",
-      "React",
+      "React.js",
       "Node.js",
       "Postman",
       "MongoDB",
@@ -48,7 +48,9 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-3">
             <div className="text-xl font-semibold">{project.title}</div>
-            <p className="text-gray-400">{project.description}</p>
+            <p className="text-gray-400 leading-relaxed  text-justify text-sm md:text-base">
+              {project.description}
+            </p>
           </div>
 
           <div className="flex flex-wrap gap-5">

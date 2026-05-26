@@ -8,7 +8,7 @@ const educationData = [
     description:
       "Comprehensive course covering JavaScript, React, Node.js, Express, MongoDB, and full-stack application development.",
     year: "2025",
-    skills: ["JavaScript", "React", "Node.js", "MongoDB", "Express"],
+    skills: ["JavaScript", "React.js", "Node.js", "MongoDB", "Express"],
   },
   {
     title: "Selenium Webdriver with Java-Basics to Advanced+Frameworks",
