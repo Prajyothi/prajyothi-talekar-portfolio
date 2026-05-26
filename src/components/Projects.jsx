@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import HomePage from "/public/HomePage.png";
-import { div } from "framer-motion/client";
 
 const projectsData = [
   {

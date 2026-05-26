@@ -34,14 +34,14 @@ const Tech = () => {
         Technologies
       </motion.h1>
 
-      <div className="flex  flex-wrap items-center justify-center gap-10 p-5 ">
+      <div className="flex flex-wrap items-center justify-center gap-8 p-5 sm:gap-10">
         <motion.div
           variants={variants}
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoJavascript className="cursor-pointer text-[80px] text-yellow-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoJavascript className="cursor-pointer text-[60px] text-yellow-500 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -50,7 +50,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoGit className="cursor-pointer text-[80px] text-gray-100 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoGit className="cursor-pointer text-[60px] text-gray-100 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -59,7 +59,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoCss3 className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoCss3 className="cursor-pointer text-[60px] text-blue-500 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -68,7 +68,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoReact className="cursor-pointer text-[80px] text-pink-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoReact className="cursor-pointer text-[60px] text-pink-500 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -77,7 +77,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoGithub className="cursor-pointer text-[80px] text-gray-100 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoGithub className="cursor-pointer text-[60px] text-gray-100 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -86,7 +86,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoNodejs className="cursor-pointer text-[80px] text-green-400 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoNodejs className="cursor-pointer text-[60px] text-green-400 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -95,7 +95,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoHtml5 className="cursor-pointer text-[80px] text-orange-600 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoHtml5 className="cursor-pointer text-[60px] text-orange-600 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -104,7 +104,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoTailwindCss className="cursor-pointer text-[80px] text-sky-400 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoTailwindCss className="cursor-pointer text-[60px] text-sky-400 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -113,7 +113,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <BiLogoVisualStudio className="cursor-pointer text-[80px] text-purple-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <BiLogoVisualStudio className="cursor-pointer text-[60px] text-purple-500 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -122,7 +122,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <SiMui className="cursor-pointer text-[80px] text-blue-400 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <SiMui className="cursor-pointer text-[60px] text-blue-400 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
 
         <motion.div
@@ -131,7 +131,7 @@ const Tech = () => {
           whileInView="visible"
           transition={{ duration: 0.8 }}
         >
-          <SiMongodb className="cursor-pointer text-[80px] text-green-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[80px]" />
+          <SiMongodb className="cursor-pointer text-[60px] text-green-500 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[80px]" />
         </motion.div>
       </div>
     </div>

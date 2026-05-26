@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="fixed -z-10 min-h-screen w-full [background:radial-gradient(100%_100%_at_30%_10%,#0a0a0a_50%,#1a1a3e_90%)]"></div>
-      <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
+      <main className="flex flex-col items-center px-4 pt-24 md:px-8 lg:px-16">
         <Navbar />
         <Frame />
         <Tech />
